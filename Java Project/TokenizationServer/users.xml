@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><list><user><username>admin</username><password>12345</password><rights><right>All</right></rights></user><user><username>writer</username><password>12345</password><rights><right>RegisterToken</right></rights></user><user><username>reader</username><password>12345</password><rights><right>GetCard</right></rights></user></list>

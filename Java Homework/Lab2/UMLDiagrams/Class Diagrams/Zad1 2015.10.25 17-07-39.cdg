@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Zad1">
+  <ClassDiagramComponents>
+    <Class name="Celsius" package="Zad1" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="celsius" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="celsiusDegrees"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCelsius" returnType="double" visibility="public"/>
+        <Method name="setCelsius" returnType="void" visibility="public">
+          <Argument type="double" name="value"/>
+        </Method>
+        <Method name="convertToFahrenheit" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Fahrenheit" package="Zad1" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="fahrenheit" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="double" name="fahrenheitDegrees"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getFahrenheit" returnType="double" visibility="public"/>
+        <Method name="setFahrenheit" returnType="void" visibility="public">
+          <Argument type="double" name="value"/>
+        </Method>
+        <Method name="convertToCelsius" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="TestConvert" package="Zad1" visibility="public" xPosition="270.0" yPosition="229.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
